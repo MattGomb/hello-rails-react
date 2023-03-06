@@ -73,3 +73,5 @@ end
 
 # Configure environment variables
 gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
+
+gem 'rubocop', '>= 1.0', '< 2.0'
