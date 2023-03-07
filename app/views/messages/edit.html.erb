@@ -1,0 +1,10 @@
+<h1>Editing greeting</h1>
+
+<%= render "form", message: @message %>
+
+<br>
+
+<div>
+  <%= link_to "Show this greeting", @message %> |
+  <%= link_to "Back to greetings", messages_path %>
+</div>
